@@ -1,32 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>desenho animado</title>
-    <!--Link do Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>925 Pratas</title>
+	<!-- Link do Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+	<nav class="navbar navbar-expand-lg navbar-darl">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">925 Pratas</a>
 
-    <nav class="naver naver-expand-lg naver-darl">
-        <div class="conteiner">
-            <a class="naver-brand" href="index.html">desenho animado</a>
-            <button class="btn btn-outline-light"
-            data-bs-toggle="modal"data-bs-toggle="#loginModal">Login</button>
+			<button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
 
-            <button class="btn btn-outline-light ms -2" onclick="viewCart()">carrinho</button>
-        
-        </div>     
-    </nav>
-    <div class="conteiner my-4">
-        <h2 class="text-center text-primary">produtos Disponiveis</h2>
-        <div class="row" id="productList">
-            <!--Produtos gerados pelo JavaScript-->
-        </div>
-        
+			<button class="btn btn-outline-lght ms-2" onclick="viewCart()">Carrinho</button>
+		</div>
+	</nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
+	<div class="container my-4">
+		<h2 class="text-center text-primary">Produtos Disponíveis</h2>
+		<div class="row" id="productList">
+			<!-- Produtos gerados pelo JavaScript -->
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+
